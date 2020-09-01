@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatButton xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/season"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:background="@color/season_button_color"
+    android:gravity="center"
+    android:padding="8dp"
+    android:layout_margin="4dp"
+    android:textColor="@color/white"
+    android:textSize="15sp"
+    tools:text="5" />

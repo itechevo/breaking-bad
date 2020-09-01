@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Breaking Bad</string>
+    <string name="details">Details</string>
+
+    <string name="error">There seems to be an error.</string>
+    <string name="retry">RETRY</string>
+
+    <string name="search">Search</string>
+    <string name="search_hint">Search Characters</string>
+    <string name="filter">Filter by season:</string>
+
+    <string name="name_prefix">Name: %s</string>
+    <string name="nickname_prefix">Nickname: %s</string>
+    <string name="occupation_prefix">Occupation: %s</string>
+    <string name="status_prefix">Status: %s</string>
+    <string name="seasons_prefix">Season appearance: %s</string>
+
+</resources>

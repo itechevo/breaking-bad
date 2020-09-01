@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/charactersFragment">
+
+    <fragment
+        android:id="@+id/charactersFragment"
+        android:name="com.itechevo.breakingbad.ui.characters.CharactersFragment">
+        <action
+            android:id="@+id/showCharacterDetails"
+            app:destination="@+id/characterDetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/characterDetailsFragment"
+        android:name="com.itechevo.breakingbad.ui.characters.CharacterDetailsFragment">
+        <argument
+            android:name="character"
+            app:argType="com.itechevo.domain.model.Character" />
+    </fragment>
+
+</navigation>
